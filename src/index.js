@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Table from './Table';
 import reportWebVitals from './reportWebVitals';
+import Calendar from "./Caldendar";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <Calendar />
+      <Table />
   </React.StrictMode>
 );
 
